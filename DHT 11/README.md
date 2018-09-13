@@ -16,5 +16,5 @@ Berikut cara penggunaannya menggunakan DT-AVR Low Cost Micro System :
 4.	Upload program dht11.c ke DT-AVR Low Cost Micro System
 5.	Jalankan program monitor COMPort (eg. Terminal, Hypertermina, hterm, dsb) dan atur pada baudrate 9600, 8 bit data, no parity, dan 1 stop bit. 
 6.	Jalankan koneksi
-7.	Data yang ditampilkan adalah data kelembaban lalu diikuti data temperature dengan format berikut:
+7.	Data yang ditampilkan adalah data kelembaban lalu diikuti data temperature dari sensor DHT 11 dengan format berikut:
 Hum = XX RH, Tem = XX C
