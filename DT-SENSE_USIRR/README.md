@@ -61,7 +61,7 @@ INFRARED RANGER adalah 65 kHz.
 9.	Pada monitor COMPort akan terkirim 4 kelompok data sebagai berikut:
 
 **I2C=0100  PUL=0100  IR1=XXXX  IR2=XXXX
-OK
+OK**
 
 •	CATATAN: 
 •	Nilai I2C dan PUL bukan merupakan nilai yang eksak (pasti bernilai 0100). Tetapi bisa berkisar antara 0950 – 0150.
@@ -76,7 +76,7 @@ OK
 13.	Pada monitor COMPort akan terbaca 4 kelompok data sebagai berikut:
 
 **I2C=XXXX  PUL=XXXX  IR1=0100  IR2=XXXX
-OK
+OK**
 
 •	CATATAN: 
 •	Nilai IR1 bukan merupakan nilai yang eksak (pasti bernilai 0100). Tetapi bisa berkisar antara 0950 – 0150.
@@ -91,7 +91,7 @@ OK
 17.	Pada monitor COMPort akan terbaca 4 kelompok data sebagai berikut:
 
 **I2C=XXXX  PUL=XXXX  IR1=XXXX  IR2=0100
-OK
+OK**
 
 •	CATATAN: 
 •	Nilai IR2 bukan merupakan nilai yang eksak (pasti bernilai 0100). Tetapi bisa berkisar antara 0950 – 0150.
