@@ -54,7 +54,7 @@ INFRARED RANGER adalah 65 kHz.
 5.	Upload Program USIRR.c ke DT-AVR Low Cost Micro System
 6.	Hubungkan DT-AVR Low Cost Micro System dengan modul DT-Sense USIRR (yang akan diuji) dengan hubungan sebagai berikut:
 
-<img src="/images/usirr 2.JPG" height="100">
+<img src="/images/usirr 2.JPG" height="200">
 
 7.	Atur posisi modul DT-Sense USIRR sehingga ujung sensor ultrasonic berada pada jarak 10 cm dari obyek (dinding, kardus, dsb).
 8.	Tekan tombol “Reset” DT-AVR Low Cost Micro System.
