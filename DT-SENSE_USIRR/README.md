@@ -37,7 +37,9 @@ dan reflektifitas obyek dapat diatur.
 ### HUBUNGAN DT-SENSE ULTRASONIC AND INFRARED RANGER DENGAN GP2D12
 J5 dan J6 berfungsi untuk menghubungkan modul sensor infrared ranger
 GP2D12 ke modul DT-SENSE ULTRASONIC AND INFRARED RANGER.
-### Tabel
+
+<img src="/images/usirr 1.JPG" height="100">
+
 ### PERANGKAT LUNAK DT-SENSE ULTRASONIC AND INFRARED RANGER
 Waktu yang dibutuhkan modul DT-SENSE ULTRASONIC AND INFRARED
 RANGER mulai menyala hingga siap dioperasikan (Start-up Time) = 50 ms.
@@ -51,7 +53,9 @@ INFRARED RANGER adalah 65 kHz.
 4.	Hubungkan COM Port Komputer dengan DT-AVR Low Cost Micro System melalui UART RS-232.
 5.	Upload Program USIRR.c ke DT-AVR Low Cost Micro System
 6.	Hubungkan DT-AVR Low Cost Micro System dengan modul DT-Sense USIRR (yang akan diuji) dengan hubungan sebagai berikut:
-### Tabel
+
+<img src="/images/usirr 2.JPG" height="100">
+
 7.	Atur posisi modul DT-Sense USIRR sehingga ujung sensor ultrasonic berada pada jarak 10 cm dari obyek (dinding, kardus, dsb).
 8.	Tekan tombol “Reset” DT-AVR Low Cost Micro System.
 9.	Pada monitor COMPort akan terkirim 4 kelompok data sebagai berikut:
@@ -64,7 +68,9 @@ OK
 •	Nilai IR1 dan IR2 tidak perlu diperhatikan (XXXX = abaikan).
 
 10.	Hubungkan Sensor Infrared Ranger GP2D12 pada jumper J5 dengan koneksi sebagai berikut:
-### Tabel
+
+<img src="/images/usirr 3.JPG" height="100">
+
 11.	Atur posisi Sensor Infrared Ranger GP2D12 sehingga ujung sensor berada pada jarak 10 cm dari obyek (dinding, kardus, dsb).
 12.	Tekan tombol “Reset” DT-AVR Low Cost Micro System.
 13.	Pada monitor COMPort akan terbaca 4 kelompok data sebagai berikut:
@@ -77,7 +83,9 @@ OK
 •	Nilai I2C, PUL dan IR2 tidak perlu diperhatikan (XXXX = abaikan).
 
 14.	Hubungkan Sensor Infrared Ranger GP2D12 pada jumper J6 dengan koneksi sebagai berikut:
-### Tabel
+
+<img src="/images/usirr 4.JPG" height="100">
+
 15.	Atur posisi Sensor Infrared Ranger GP2D12 sehingga ujung sensor berada pada jarak 10 cm dari obyek (dinding, kardus, dsb).
 16.	Tekan tombol “Reset” DT-AVR Low Cost Micro System.
 17.	Pada monitor COMPort akan terbaca 4 kelompok data sebagai berikut:
