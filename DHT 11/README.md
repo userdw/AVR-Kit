@@ -8,7 +8,9 @@ Interface : Digital
 Data bus sensor ini bukan TWI / I2C melainkan bus tersendiri dimana nilai 1 & 0 dibedakan melalui LEBAR PULSA HIGH
 Berikut cara penggunaannya menggunakan DT-AVR Low Cost Micro System :
 1.	Hubungkan Sensor DHT 11 dengan DT-AVR Low Cost Micro System seperti dibawah ini
-### Tabel
+
+<img src="/images/dht11.JPG" height="100">
+
 2.	Hubungkan kabel serial ke port usb komputer
 3.	Hubungkan DT-HiQ AVR USB ISP mkII ke Port ISP DT-AVR Low Cost Micro System dan kabel data USB ke komputer
 4.	Upload program dht11.c ke DT-AVR Low Cost Micro System
