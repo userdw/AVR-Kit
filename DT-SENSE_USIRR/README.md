@@ -60,7 +60,7 @@ INFRARED RANGER adalah 65 kHz.
 8.	Tekan tombol “Reset” DT-AVR Low Cost Micro System.
 9.	Pada monitor COMPort akan terkirim 4 kelompok data sebagai berikut:
 
-I2C=0100  PUL=0100  IR1=XXXX  IR2=XXXX
+**I2C=0100  PUL=0100  IR1=XXXX  IR2=XXXX
 OK
 
 •	CATATAN: 
@@ -75,7 +75,7 @@ OK
 12.	Tekan tombol “Reset” DT-AVR Low Cost Micro System.
 13.	Pada monitor COMPort akan terbaca 4 kelompok data sebagai berikut:
 
-I2C=XXXX  PUL=XXXX  IR1=0100  IR2=XXXX
+**I2C=XXXX  PUL=XXXX  IR1=0100  IR2=XXXX
 OK
 
 •	CATATAN: 
@@ -90,7 +90,7 @@ OK
 16.	Tekan tombol “Reset” DT-AVR Low Cost Micro System.
 17.	Pada monitor COMPort akan terbaca 4 kelompok data sebagai berikut:
 
-I2C=XXXX  PUL=XXXX  IR1=XXXX  IR2=0100
+**I2C=XXXX  PUL=XXXX  IR1=XXXX  IR2=0100
 OK
 
 •	CATATAN: 
