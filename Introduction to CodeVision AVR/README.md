@@ -20,8 +20,7 @@
 Langkah pembuatan proyek baru selesai tetapi belum dapat digunakan untuk membuat program C. Agar dapat digunakan untuk membuat program C diperlukan pembuatan *file* c
 7. Klik menu **File** pilih **New** kemudian pada jendela *Create New File* pilih **Source** dan klik **OK** . Akan terdapat *file* c dengan nama ```untitled.c```. Pada menu **File** pilih **Save As** kemudian isi nama *file* c yang akan dibuat, sebagai contoh ```Program1.c```
 
-<img src="/images/source.JPG" height="100">
-<img src="/images/file c.JPG" height="300">
+<img src="/images/source.JPG" height="100"> <img src="/images/file c.JPG" height="300">
 
 8. Untuk menggabungkan ```Program1.c``` dengan proyek ```Tes.prj``` yaitu klik pada menu **project**, pilih **Configure**.
 <img src="/images/project-configure.png" height="200">
@@ -33,4 +32,7 @@ Langkah pembuatan proyek baru selesai tetapi belum dapat digunakan untuk membuat
 ### Dengan CodeWizard AVR
 Selain membuat proyek baru dengan cara yang telah dibahas sebelum ini, ada cara lain yang lebih mudah dan cepat yaitu dengan menggunakan CodeWizard AVR.
 Langkah-langkahnya sebagai berikut :
-Pada menu **File** pilih **New** atau klik ikon <img src="/images/icon.JPG" height="30">, kemudian pada jendela *Create New File* pilih **Project** dan klik **OK**. Untuk membuat proyek baru dengan bantuan CodeWizard AVR klik **Yes**
+Pada menu **File** pilih **New** atau klik ikon <img src="/images/icon.JPG" height="30">, kemudian pada jendela *Create New File* pilih **Project** dan klik **OK**. Untuk membuat proyek baru dengan bantuan CodeWizard AVR klik **Yes**, lalu ada jendela *AVR Chip Type* pilih yang **AT90,ATtiny,ATmega,FPSLIC**
+<img src="/images/project.JPG" height="100"> <img src="/images/yes wizard.JPG" height="100">
+
+Akan muncul jendela *CodeWizard AVR - untitled.cwp*, pilih mikrokontroler yang akan digunakan dan pilih frekuensi *clock* yang digunakan oleh mikrokontroler.
