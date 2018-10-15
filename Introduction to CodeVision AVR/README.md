@@ -33,4 +33,4 @@ Langkah pembuatan proyek baru selesai tetapi belum dapat digunakan untuk membuat
 ### Dengan CodeWizard AVR
 Selain membuat proyek baru dengan cara yang telah dibahas sebelum ini, ada cara lain yang lebih mudah dan cepat yaitu dengan menggunakan CodeWizard AVR.
 Langkah-langkahnya sebagai berikut :
-Pada menu **File** pilih **New**,
+Pada menu **File** pilih **New** atau klik ikon <img src="/images/icon.JPG" height="30">, kemudian pada jendela *Create New File* pilih **Project** dan klik **OK**. Untuk membuat proyek baru dengan bantuan CodeWizard AVR klik **Yes**
