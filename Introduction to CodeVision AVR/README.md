@@ -5,13 +5,13 @@
 2. Pada menu **File** pilih **New**
 <img src="/images/newfile.png" height="400">
 3. Pada jendela *Create New File* pilih Project dan klik **OK**
-<img src="/images/project.JPG" height="200">
+<img src="/images/project.JPG" height="100">
 4. Untuk membuat proyek baru tanpa bantuan CodeWizard AVR klik **No** pada jendela yang muncul berikutnya
-<img src="/images/no wizard.JPG" height="200">
+<img src="/images/no wizard.JPG" height="100">
 5. Setelah itu pilih direktori untuk menyimpan proyek yang akan dibuat, misalnya pada direktori "D:\CobaAVR\", kemudian isi nama proyek tersebut, sebagai contoh "Tes.prj" lalu klik **Save**
-<img src="/images/save.JPG" height="200">
+<img src="/images/save.JPG" height="300">
 6. Pada jendela *Configure Project Tes.prj*, tab C Compiler, pilih mikrokontroler yang digunakan misalnya ATmega16A dan pilih frekuensi Clock (kristal) yang digunakan, misalnya 4 MHz. kemudian klik **OK**.
-<img src="/images/configure.JPG" height="200">
+<img src="/images/configure.JPG" height="300">
 Langkah pembuatan proyek baru selesai tetapi belum dapat digunakan untuk membuat program C. Agar dapat digunakan untuk membuat program C diperlukan pembuatan *file* c
 7. Klik menu **File** pilih **New** kemudian pada jendela *Create New File* pilih **Source** dan klik **OK**. Akan terdapat *file* c dengan nama "untitled.c". Pada menu **File** pilih **Save As** kemudian isi nama *file* c yang akan dibuat, sebagai contoh "Program1.c"
 <img src="/images/source.JPG" height="100">
