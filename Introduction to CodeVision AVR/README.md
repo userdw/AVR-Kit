@@ -54,4 +54,12 @@ Langkah-langkahnya sebagai berikut :
 Agar Codevision AVR dapat memprogram mikrokontroler AVR menggunakan AVR ISP MKII diperlukan pengaturan *programmer* terlebih dahulu. Pengaturan *programmer* dapat dilakukan melalui 
 * menu **setting** kemudian pilih **programmer**
 * pilih **Atmel AVRISP MkII (USB)**, centang **ATmega CKDIV8 Fuse Warning**
-*                    **Jika ada *pop-up information* , install *AVR Studio V4.19* terlebih dahulu**
+* **Jika ada *pop-up information* , install *AVR Studio V4.19* terlebih dahulu**
+* Setelah meng-install AVR Studio, perlu dilakukan pengaturan pada proyek ```coba.prj``` melalui menu **Project** pilih **Configure**
+Pada jendela *Configure Project Tes.prj* , label After build, beri tanda centang pada *Program the Chip* kemudian klik **OK**.
+<img src="/images/afterbuild.JPG" height="400">
+
+* Untuk mencoba memprogram mikrokontroler, yaitu tekan **Shift + F9** kemudian akan muncul jendela informasi, klik **Program** untuk memulai memprogram mikrontroler.
+<img src="/images/compile.JPG" height="400">
+
+Tunggu beberapa saat sampai proses pemrograman selesai.
