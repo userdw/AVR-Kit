@@ -2,7 +2,7 @@
 ## Cara membuat proyek baru
 ### Tanpa CodeWizard AVR
 1. Buka program CodeVision AVR pada *dekstop* dengan klik ganda icon (cvavr2 - Shortcut)
-2. Pada menu **File** pilih **New**
+2. Pada menu **File** pilih **New** atau klik ikon <img src="/images/icon.JPG" height="25">,
 <img src="/images/newfile.png" height="400">
 
 3. Pada jendela *Create New File* pilih Project dan klik **OK**
@@ -32,7 +32,21 @@ Langkah pembuatan proyek baru selesai tetapi belum dapat digunakan untuk membuat
 ### Dengan CodeWizard AVR
 Selain membuat proyek baru dengan cara yang telah dibahas sebelum ini, ada cara lain yang lebih mudah dan cepat yaitu dengan menggunakan CodeWizard AVR.
 Langkah-langkahnya sebagai berikut :
-Pada menu **File** pilih **New** atau klik ikon <img src="/images/icon.JPG" height="30">, kemudian pada jendela *Create New File* pilih **Project** dan klik **OK**. Untuk membuat proyek baru dengan bantuan CodeWizard AVR klik **Yes**, lalu ada jendela *AVR Chip Type* pilih yang **AT90,ATtiny,ATmega,FPSLIC**
-<img src="/images/project.JPG" height="100"> <img src="/images/yes wizard.JPG" height="100">
+* Pada menu **File** pilih **New** atau klik ikon <img src="/images/icon.JPG" height="25">, kemudian pada jendela *Create New File* pilih **Project** dan klik **OK**. Untuk membuat proyek baru dengan bantuan CodeWizard AVR klik **Yes**, lalu ada jendela *AVR Chip Type* pilih yang **AT90,ATtiny,ATmega,FPSLIC**
 
-Akan muncul jendela *CodeWizard AVR - untitled.cwp*, pilih mikrokontroler yang akan digunakan dan pilih frekuensi *clock* yang digunakan oleh mikrokontroler.
+<img src="/images/project.JPG" height="100"> <img src="/images/yes wizard.JPG" height="100"> <img src="/images/chip type.JPG" height="100">
+
+* Akan muncul jendela *CodeWizard AVR - untitled.cwp*, pilih mikrokontroler yang akan digunakan dan pilih frekuensi *clock* yang digunakan oleh mikrokontroler. Misalnya mikrokontroler yang digunakan ATmega16A dengan kristal yang digunakan sebesar 4 MHz.
+<img src="/images/codewizard.png" height="400">
+
+**Pada CodeWizardAVR ini telah disediakan beberapa fungsi yang terdapat pada mikrokontroler yang digunakan sehingga kita dapat menggunakan bantuan COdeWizardAVR untuk membuat suatu program C agar dapat menggunakan fungsi-fungsi tersebut. Tetapi program C yang dibuat oleh CodeWizardAVR hanya untuk pengaturan awal saja sehingga masih diperlukan tambahan program untuk menggunakan fungsi-fungsi tersebut.**
+* Setelah selesai memilih fungsi yang akan digunakan, pada menu **File** pilih **Generate, Save and Exit**.
+* Tentukan nama *file* program C yang akan dibuat misalnya ```Led.c```
+<img src="/images/saveC.JPG" height="400">
+
+* Tentukan nama *project* yang akan dibuat misalnya ```coba.prj```
+<img src="/images/savePRJ.JPG" height="400">
+
+* Tentukan nama *wizard* untuk pengatuan fungsi pada CodeWizardAVR```coba.c```
+<img src="/images/saveCWP.JPG" height="400">
+
