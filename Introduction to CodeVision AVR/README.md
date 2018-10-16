@@ -47,6 +47,11 @@ Langkah-langkahnya sebagai berikut :
 * Tentukan nama *project* yang akan dibuat misalnya ```coba.prj```
 <img src="/images/savePRJ.JPG" height="400">
 
-* Tentukan nama *wizard* untuk pengatuan fungsi pada CodeWizardAVR```coba.c```
+* Tentukan nama *wizard* untuk pengatuan fungsi pada CodeWizardAVR ```coba.cwp```
 <img src="/images/saveCWP.JPG" height="400">
 
+## Pemrograman Mikrokontroler AVR dengan AVR ISP MKII melalui CodeVision AVR
+Agar Codevision AVR dapat memprogram mikrokontroler AVR menggunakan AVR ISP MKII diperlukan pengaturan *programmer* terlebih dahulu. Pengaturan *programmer* dapat dilakukan melalui 
+* menu **setting** kemudian pilih **programmer**
+* pilih **Atmel AVRISP MkII (USB)**, centang **ATmega CKDIV8 Fuse Warning**
+*                    **Jika ada *pop-up information* , install *AVR Studio V4.19* terlebih dahulu**
