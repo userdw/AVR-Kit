@@ -1,10 +1,10 @@
 # DHT-11 Sensor Suhu dan Kelembaban
 Sensor DHT 11 merupakan sensor suhu dan kelembaban versi Low Cost
 Spesifikasi :
-Supply voltage : ± 5 VDC
-Temperature range : 0 – 50˚ C error of ± 2˚ C
-Humidity : 20 – 90% RH ± 5% RH error
-Interface : Digital
+* Supply voltage : ± 5 VDC
+* Temperature range : 0 – 50˚ C error of ± 2˚ C
+* Humidity : 20 – 90% RH ± 5% RH error
+* Interface : Digital
 Data bus sensor ini bukan TWI / I2C melainkan bus tersendiri dimana nilai 1 & 0 dibedakan melalui LEBAR PULSA HIGH
 Berikut cara penggunaannya menggunakan Mikrokontroller ATmega16A :
 1.	Hubungkan Sensor DHT 11 dengan Mikrokontroller ATmega16A seperti dibawah ini
