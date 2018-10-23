@@ -1,4 +1,26 @@
 # Introduction to CodeVision AVR C Compiler
+## Fitur-fitur CodeVision AVR
+* Code Templates
+   Jendela *Code templates* memudahkan untuk menambah rangkaian code.
+   dengan meng-klik kanan salah satu *code templates* Anda dapat pop-up menu seperti:
+   * Copy yo Edit Window
+   * Paste
+   * Move Up
+   * Move Down
+   * Delete
+   
+<img src="/images/codetemplates.JPG" height="423">
+   
+* Clipboard History
+   Jendela *Clipboard History* memudahkan Anda untuk melihat dan mengakses bagian code yang terakhir di-*copy* pada Clipboard
+   Pop-up menu yang ada pada *Code Templates* :
+   * Copy to the Edit Window
+   * Delete
+   * Delete All
+   
+<img src="/images/ClipboardHistory.JPG" height="419">
+
+
 ## Cara membuat proyek baru
 ### Tanpa CodeWizard AVR
 1. Buka program CodeVision AVR pada *dekstop* dengan klik ganda icon (cvavr2 - Shortcut)
