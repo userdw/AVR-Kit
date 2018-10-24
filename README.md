@@ -1,4 +1,4 @@
-# AVR_Maker_Kit
+## AVR_Maker_Kit
 AVR Maker Kit ini terdiri dari :
 * 1 unit Microcontroller ATmega16A (DT-AVR Low Cost Micro System)
 <img src="/images/LCMS.jpg" height="400">
