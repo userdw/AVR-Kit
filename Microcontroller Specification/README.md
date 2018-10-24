@@ -1,1 +1,8 @@
+### Basic Input/Output
+* Pin I/O pada mikrokontroler AVR dapat dikonfigurasi sebagai *input* atau *output*. Untuk mengubah konfigurasi pin I/O sebagai *input* atau *output* bisa dilakukan dengan mengubah isi I/O *register Data Direction Register port* yang bersangkutan. Misalnya *Port* B dikonfigurasi sebagai *input*, maka isi I/O *register* DDRB = 00H, sebaliknya juka dikonfigurasi sebagai *output*, maka isi I/O *register* DDRB = FFH.
 
+* VOH (*output high voltage*) adalah tegangan pada *pin* I/O mikrokontroler ketika mikrokontroler mengeluarkan logika '1' (*high*). Untuk mikrokontroler ATmega16A, besar VOH (minimum) = 4,2 volt dengan kondisi tegangan mikrokontroler (Vcc) 5 volt. Arus yang disediakan (*current source*) pada saat *pin* I/O mikrokontroler berlogika '1' sebesar 20 mA (IOH).
+
+* Sebaliknya tegangan pada *pin* I/O mikrokontroler ketika mikrokontroler mengeluarkan logika '0' (*low*) disebut VOL (*output low logika*). Untuk mikrokontroler ATmega16A, besar VOL (maksimum) = 0,7 volt dengan kondisi tegangan mikrokontroler (Vcc) 5 volt. Kemampuan menerima arus (*current sink*) pada saat *pin* I/O mikrokontroler berlogika '0' sebesar 20mA (IOL).
+
+* Setiap *pin* I/O mikrokontroler AVR mempunyai *internal pull-up*. Jika pin I/O mikrokontroler AVR dikonfigurasi sebagai *input*, *internal pull-up* dapat dipilih untuk diaktifkan atau tidak diaktifkan. Jika dikonfigurasi sebagai *output* maka *internal pull-up* tidak dapat diaktifkan. Misalnya *Port* B dikonfigurasi sebagai *input* dengan *internal pull-up* diaktifkan maka isi I/O *register* DDRB = 00H dan PORTB = FFH, sebaliknya jika dikonfigurasi sebagai *input* dengan *internal pull-up* tidak diaktifkan maka isi I/O *register* DDRB = 00H dan PORTB = 00H.
