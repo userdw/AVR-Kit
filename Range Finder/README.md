@@ -48,7 +48,7 @@ Frekuensi SCL maksimum untuk Ultrasonic Sensor Module adalah 65 kHz.
 5.	Upload Program USIRR.c ke Mikrokontroller ATmega16A
 6.	Hubungkan Mikrokontroller ATmega16A dengan modul Ultrasonic Sensor Module (yang akan diuji) dengan hubungan sebagai berikut:
 
-<img src="/images/usirr 2.JPG" height="200">
+<img src="/images/usirr 2.JPG" height="100">
 
 7.	Atur posisi modul Ultrasonic Sensor Module sehingga ujung sensor ultrasonic berada pada jarak 10 cm dari obyek (dinding, kardus, dsb).
 8.	Tekan tombol “Reset” Mikrokontroller ATmega16A.
@@ -63,7 +63,7 @@ OK**
 
 10.	Hubungkan Sensor Infrared Ranger GP2D12 pada jumper J5 dengan koneksi sebagai berikut:
 
-<img src="/images/usirr 3.JPG" height="100">
+<img src="/images/usirr 3.JPG" height="200">
 
 11.	Atur posisi Sensor Infrared Ranger GP2D12 sehingga ujung sensor berada pada jarak 10 cm dari obyek (dinding, kardus, dsb).
 12.	Tekan tombol “Reset” Mikrokontroller ATmega16A.
@@ -78,7 +78,7 @@ OK**
 
 14.	Hubungkan Sensor Infrared Ranger GP2D12 pada jumper J6 dengan koneksi sebagai berikut:
 
-<img src="/images/usirr 4.JPG" height="100">
+<img src="/images/usirr 4.JPG" height="200">
 
 15.	Atur posisi Sensor Infrared Ranger GP2D12 sehingga ujung sensor berada pada jarak 10 cm dari obyek (dinding, kardus, dsb).
 16.	Tekan tombol “Reset” Mikrokontroller ATmega16A.
