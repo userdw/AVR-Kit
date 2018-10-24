@@ -48,7 +48,7 @@ Frekuensi SCL maksimum untuk Ultrasonic Sensor Module adalah 65 kHz.
 5.	Upload Program USIRR.c ke Mikrokontroller ATmega16A
 6.	Hubungkan Mikrokontroller ATmega16A dengan modul Ultrasonic Sensor Module (yang akan diuji) dengan hubungan sebagai berikut:
 
-<img src="/images/usirr 2.JPG" height="100">
+<img src="/images/usirr 2.JPG" height="300">
 
 7.	Atur posisi modul Ultrasonic Sensor Module sehingga ujung sensor ultrasonic berada pada jarak 10 cm dari obyek (dinding, kardus, dsb).
 8.	Tekan tombol “Reset” Mikrokontroller ATmega16A.
