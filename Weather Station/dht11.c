@@ -11,7 +11,6 @@ Data Stack size         : 256
 #include <delay.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <alcd.h>
 
 #define DHT11_DDR DDRD.6
 #define DHT11_PORT PORTD.6
@@ -74,7 +73,6 @@ UCSRB=0x18;
 UCSRC=0x86;
 UBRRH=0x00;
 UBRRL=0x19;
-lcd_init(16);
 
 request();
 response();
